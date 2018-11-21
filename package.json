@@ -1,0 +1,26 @@
+{
+  "name": "prounge-rest-server",
+  "version": "1.0.0",
+  "description": "This is an express server running a REST API used to interact with multiple devices, including Samsung Galaxy S3, Nanoleaf Rythm Light Panels and Raspberry Pi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "keywords": [
+    "IoT",
+    "REST"
+  ],
+  "author": "Marco Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "node-aplay": "1.0.3",
+    "axios": "^0.18.0",
+    "body-parser": "1.18.3",
+    "express": "4.16.2",
+    "jsonwebtoken": "8.1.1",
+    "helmet": "3.11.0",
+    "onoff": "^3.2.2",
+    "request": "^2.88.0"
+  }
+}
